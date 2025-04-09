@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - ColorArt Tintas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <!-- Header content (same as other pages) -->
+    </header>
+
+    <section class="cart">
+        <div class="container">
+            <a href="javascript:history.go(-1)" class="btn-back">← Voltar</a>
+            <h2>Carrinho de Compras</h2>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="images/tinta1.jpg" alt="Tinta Premium Azul Celeste">
+                    <div class="item-details">
+                        <h3>Tinta Premium Azul Celeste</h3>
+                        <p class="price">R$ 129,90</p>
+                        <p>Quantidade: 1</p>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="images/tinta2.jpg" alt="Tinta Acrílica Verde Musgo">
+                    <div class="item-details">
+                        <h3>Tinta Acrílica Verde Musgo</h3>
+                        <p class="price">R$ 89,90</p>
+                        <p>Quantidade: 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <p>Total: R$ 219,80</p>
+                <label for="checkout-popup" class="btn-checkout">Finalizar Compra</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pop-up de compra concluída -->
+    <input type="checkbox" id="checkout-popup" class="popup-toggle">
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <h3>Compra Concluída!</h3>
+            <p>Sua compra foi realizada com sucesso.</p>
+            <p>Obrigado por escolher a ColorArt Tintas!</p>
+            <a href="index.html" class="btn">Voltar para a loja</a>
+            <label for="checkout-popup" class="popup-close">×</label>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Footer content (same as other pages) -->
+    </footer>
+</body>
+</html>
